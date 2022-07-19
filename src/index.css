@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "irancell bold";
+  src: url("./assets/fonts/MTNIrancell-Bold.ttf");
+}
+ 
+body {
+  direction: rtl;
+  margin: 0;
+  font-family: "irancell bold";
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1{
+  font-family: "irancell bold";
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
