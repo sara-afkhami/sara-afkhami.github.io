@@ -2,19 +2,34 @@
   font-family: "irancell bold";
   src: url("./assets/fonts/MTNIrancell-Bold.ttf");
 }
- 
+
+@font-face {
+  font-family: "irancell light";
+  src: url("./assets/fonts/MTNIrancell-Light.ttf");
+}
+@font-face {
+  font-family: "irancell extra light";
+  src: url("./assets/fonts/MTNIrancell-ExtraLight.ttf");
+}
+button{
+  font-family: "irancell bold";  
+}
 body {
   direction: rtl;
   margin: 0;
   font-family: "irancell bold";
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
 h1{
   font-family: "irancell bold";
+  font-size: 44px;
+  color: #2856d3;
+}
+h2{
+  font-family: "irancell bold";
+  font-size: 30px;
 }
 .flex-row{
   display: flex;
@@ -23,4 +38,7 @@ h1{
 .flex-column{
   display: flex;
   flex-direction: column;
+}
+.services-products-text-below{
+  font-family: "irancell extra light";  
 }

@@ -1,0 +1,90 @@
+.work-with-us-container{
+    padding:2%;
+    /* padding-right: 4%;
+    padding-left: 4%; */
+    width: 80%;
+    height: 50%;
+    background-color: white;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+.work-with-us-info{
+    height:120%;
+    width:40%;
+    position:relative;
+    margin-top: -110px;
+    background-color: #000;
+    border-radius: 15px;
+    background-color: #DBEDFF;
+    /* padding: 2%; */
+    align-items: right;
+}
+.work-with-us-inner-info{
+    height: 100%;
+    padding: 5%;
+    color: #294FCD;
+    font-family: "irancell light";
+    justify-content: space-between;
+}
+.work-with-us-inner-info :first-child {
+ font-size: 28px;
+ font-family: "irancell bold"
+}
+.work-with-us-inner-info img{
+    margin-left: 10px;
+}
+.work-with-us-form{
+    width:50%;
+    padding-right: 5%;
+}
+.work-with-us-form .inner-form{
+    height: 100%;
+}
+.inner-div-form{
+    display: flex;
+    justify-content: space-between;
+}
+.formik-field{
+    /* margin-top: 20px; */
+    border: none;
+    border-radius: 7px;
+    background-color: #EBEEF3;
+    height: 50px;
+    padding-right: 2%;
+
+}
+.inner-form{
+    justify-content: space-around;
+}
+.twin-field{
+    width: 45%;
+
+}
+.formik-button{
+    /* margin-top: 20px; */
+    height: 50px;
+    width: 30%;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #294FCD;
+    align-self: end;
+}
+::placeholder {
+    color: #76777A;
+    opacity: 1; /* Firefox */
+    padding-right: 2%;
+    font-family: "irancell extra light"
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #76777A;
+   padding-right: 2%;
+   font-family: "irancell extra light"
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #76777A;
+   padding-right: 2%;
+   font-family: "irancell extra light"
+  }
