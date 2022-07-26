@@ -60,8 +60,8 @@ const Index = (props) => {
     <div className="header-container">
       <div className='inner-header'>
       <div className='header-logo flex-row' onClick={()=>scrollToSlide(0)}>
-        <img src={logo} />
-        <p style={{fontSize: "28px"}}>نیلوا</p>
+        <img src={logo} alt='' />
+        <h2 style={{fontSize: "28px"}}>نیلوا</h2>
       </div>
       <div className="header-items flex-row">
         {renderSlidesNumbers(currentSlideIndex)}

@@ -6,6 +6,8 @@ import Header from "./components/Header"
 import HeroSection from "./components/HeroSection"
 import ServicesProducts from "./components/ServicesProducts"
 import WorkWithUs from "./components/WorkWithUs"
+import AboutUs from "./components/AboutUs"
+import Partners from "./components/Partners"
 
 const FullPageScroll = () => {
 
@@ -28,10 +30,20 @@ const FullPageScroll = () => {
           <ServicesProducts />
         </Slide>
         <Slide style={{ ...SectionStyle }}>
-        {/* <ToastContainer /> */}
+          <AboutUs />
+        </Slide>
+        <Slide style={{ ...SectionStyle }}>
+          {/* <ToastContainer /> */}
           <WorkWithUs />
         </Slide>
+        <Slide style={{ ...SectionStyle }}>
+          <Partners />
+        </Slide>
+        {/* <div>
+          nsjkgsaj
+        </div> */}
       </FullPage>
+
     </>
   )
 }
