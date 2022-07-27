@@ -9,8 +9,9 @@ import techpark from '../../assets/images/techpark.svg'
 import yaftar from '../../assets/images/yaftar.svg'
 
 const logos = [mohaymen, noghteh, pardis, techpark, yaftar]
+const links = ["https://www.mohaymen.ir/fa", 'https://noghteh-academy.com/', 'https://pardisgene.com/', 'https://techpark.sharif.ir/', '#']
 const noOfItems = 5;
-const noOfCards = 5;
+const noOfCards = 4;
 const autoPlayDelay = 2000;
 const chevronWidth = 40;
 
@@ -35,8 +36,11 @@ const carouselItems = range(noOfItems).map(index => (
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center'}}>
-        <img src={logos[index]} alt=""/>
+       
         {/* {index} */}
+        <a target='_blank' style={{textDecoration: "none"}} href={links[index]}>
+        <img src={logos[index]} alt=""/>
+        </a>
     </div>
 ));
 

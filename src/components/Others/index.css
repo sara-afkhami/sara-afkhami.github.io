@@ -1,0 +1,20 @@
+.other-slider{
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+}
+.other-slider-top{
+    justify-content: space-between;
+}
+.other-slider-info{
+    padding: 3%;
+}
+.right-arrow{
+    width:60px;
+    display: flex;
+    transform: rotate(180deg);
+}
+.left-arrow{
+    width:60px
+}

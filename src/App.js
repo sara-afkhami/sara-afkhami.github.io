@@ -8,6 +8,8 @@ import ServicesProducts from "./components/ServicesProducts"
 import WorkWithUs from "./components/WorkWithUs"
 import AboutUs from "./components/AboutUs"
 import Partners from "./components/Partners"
+import Footer from "./components/Footer"
+import Others from "./components/Others"
 
 const FullPageScroll = () => {
 
@@ -42,6 +44,12 @@ const FullPageScroll = () => {
         {/* <div>
           nsjkgsaj
         </div> */}
+        <Slide style={{ ...SectionStyle, backgroundColor: "#EBEEF3"}}>
+          <Others />
+        </Slide>
+        <Slide style={{ ...SectionStyle }}>
+          <Footer />
+        </Slide>
       </FullPage>
 
     </>
