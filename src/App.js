@@ -15,11 +15,11 @@ const FullPageScroll = () => {
 
 
   const SectionStyle = {
-    height: '100vh',
+    height: 'calc(100vh-100px)',
     width: '100%',
     display: 'flex',
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
   }
   return (
     <>

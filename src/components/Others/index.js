@@ -29,7 +29,7 @@ const Index = () => {
         } else setCurrentIndex(index)
     }
     return (
-        <div className=''>
+        <div className='other-container'>
             <div className='other-slider flex-row'>
                 <img alt='' src={currentArray[currentIndex].image} />
                 <div className='other-slider-info flex-column'>
