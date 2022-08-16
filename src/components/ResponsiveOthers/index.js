@@ -37,16 +37,16 @@ const Index = () => {
                 <div className='other-slider-info flex-column'>
                     <div className='other-slider-top flex-row'>
 
-                        <div className='other-slider-arrows flex-row' style={{width: '100%', justifyContent: 'space-between'}}>
+                        <div className='other-slider-arrows flex-row' style={{width: '100%', justifyContent: 'space-between', marginTop: '30px'}}>
                             <a onClick={() => handleRightArrow()}>
-                                <img className='right-arrow' alt='' src={arrow} />
+                                <img className='right-arrow' alt='' src={arrow} style={{width: '50px', height: 'auto'}}/>
                             </a>
                             <div className='other-slider-person' style={{textAlign: 'center'}}>
                                 <b>{currentArray[currentIndex].name}</b>
                                 <p>{currentArray[currentIndex].position}</p>
                             </div>
                             <a onClick={() => handleLeftArrow()}>
-                                <img className='left-arrow' alt='' src={arrow} />
+                                <img className='left-arrow' alt='' src={arrow} style={{width: '50px', height: 'auto'}}/>
                             </a>
 
                         </div>

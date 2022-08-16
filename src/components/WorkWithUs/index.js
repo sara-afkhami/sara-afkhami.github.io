@@ -19,7 +19,7 @@ const Index = () => {
     return (
         <>
 
-            <div className='work-with-us-container flex-row'>
+            <div className='work-with-us-container flex-row' id='work-with-us'>
 
                 <div className='work-with-us-info flex-column'>
                     <div className='work-with-us-inner-info flex-column'>

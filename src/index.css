@@ -1,15 +1,15 @@
 @font-face {
   font-family: "irancell bold";
-  src: url("./assets/fonts/MTNIrancell-Bold.ttf");
+  src: url("./assets/fonts/IRANSans(FaNum)_Bold.ttf");
 }
 
 @font-face {
   font-family: "irancell light";
-  src: url("./assets/fonts/MTNIrancell-Light.ttf");
+  src: url("./assets/fonts/IRANSans(FaNum)_Light.ttf");
 }
 @font-face {
   font-family: "irancell extra light";
-  src: url("./assets/fonts/MTNIrancell-ExtraLight.ttf");
+  src: url("./assets/fonts/IRANSans(FaNum)_UltraLight.ttf");
 }
 button{
   font-family: "irancell bold";  

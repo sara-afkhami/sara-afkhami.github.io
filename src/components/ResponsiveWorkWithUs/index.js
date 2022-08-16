@@ -21,7 +21,7 @@ const Index = () => {
     return (
         <div style={{ backgroundColor: '#eff7ff', display: 'flex', justifyContent: 'center' }}>
             <div style={{ width: "90%", display: 'flex', justifyContent: 'center', paddingTop: '20%', paddingBottom: '20%' }} id="work-with-us">
-                <div className='flex-column' style={{ width: "80%", backgroundColor: "white", display: 'flex', justifyContent: 'center', padding: '5%', borderRadius: "15px" }}>
+                <div className='something flex-column' style={{ width: "80%", backgroundColor: "white", display: 'flex', justifyContent: 'center', padding: '5%', borderRadius: "15px" }}>
                     <div style={{ textAlign: 'center' }}>
                         <h2>همکاری با ما</h2>
                         <p>برای برقراری  ارتباط  و شروع همکاری با نیلوا میتوانید،  فرم روبرو را پرکنید تا ما در اسرع وقت با شما تماس بگیريم و یا از طریق شماره تماس زیر با ما در ارتباط باشید.</p>

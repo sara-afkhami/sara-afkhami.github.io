@@ -5,7 +5,7 @@
 .hero-section-container {
   width: 80%;
   margin: 0 auto;
-  margin-top: 100px;
+  padding-top: 100px;
   height: calc(100vh - 100px);
   display: flex;
   align-items: center;
@@ -73,4 +73,13 @@
     /* font-size: 24px; */
     /* letter-spacing: -4px; */
   }
+}
+@media screen and (min-width: 700px) {
+
+  .hero-section-button a{
+
+    color: white;
+
+  }
+
 }

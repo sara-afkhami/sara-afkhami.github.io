@@ -8,7 +8,7 @@ const Index = () => {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
     return (
-      <div style={{width:"100%", display: "flex", backgroundColor: 'white', justifyContent: 'center'}}>
+      <div style={{width:"100%", display: "flex", backgroundColor: 'white', justifyContent: 'center', height: 'auto'}}>
         <nav className="navbar">
           <div className="nav-container">
             <a href='#hero-section' className="nav-logo">
