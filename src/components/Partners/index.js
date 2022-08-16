@@ -3,6 +3,7 @@ import PartnersSlider from './PartnersSlider'
 import './index.css'
 import hamrah from '../../assets/images/hamrah.svg'
 import azad from '../../assets/images/azad.svg'
+import ResponsivePartnerSlider from './ResponsivePartnerSlider'
 
 const WorkWith = ({ title, text, photo }) => {
     return (
@@ -22,11 +23,11 @@ const WorkWith = ({ title, text, photo }) => {
     )
 }
 
-const index = () => {
+const Index = ({ width }) => {
     return (
         <div className='partners-container'>
             <div className='partners-text-container'>
-                <div className='partners-text'>
+                <div className='partners-text' style={{minHeight: "450px"}}>
                     <h2 className='' style={{ paddingTop: '10%' }}>چه کسانی به ما اعتماد کرده اند؟</h2>
                     <p>نیلوا پاسخگوی نیازهای خاص مشتریان است، ما از ایده پردازی تا اجرا در کنار شماییم. ما به شما کمک می کنیم مزیت رقابتی کسب کنید، به طور چشمگیری نام تجاری خود را در دنیای دیجیتال بهبود بخشیده و مشتریان جدید جذب کنید.</p>
                 </div>
@@ -36,10 +37,10 @@ const index = () => {
                     <WorkWith text='طراحی و بهینه سازی پروژه ذره بین توسط کارشناسان فنی شرکت نیلوا' title='پروژه ذره بین' photo={hamrah} />
                     <WorkWith text='ارائه پیامرسان امن سازمانی هیوا به دانشگاه آزاد اسلامی متناسب با نیاز این سازمان' title='پروژه پیام رسان سازمانی' photo={azad} />
                 </div>
-                <div className='partner-slider-container'><PartnersSlider /></div>
+                <div className='partner-slider-container'>{(width > 1400) ? <PartnersSlider /> : <ResponsivePartnerSlider />}</div>
             </div>
         </div>
     )
 }
 
-export default index;
+export default Index;

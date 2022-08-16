@@ -1,48 +1,61 @@
-.partners-container{
+.partners-container {
+  width: 100%;
+  height: 100%;
+  /* margin-top: 100px; */
+}
+.partners-text-container {
+  background-color: #294fcd;
+  height: 50%;
+  color: white;
+}
+.partners-text {
+  width: 80%;
+  margin: 0 auto;
+}
+.partner-cards-container {
+  background-color: white;
+  height: 50%;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.partner-cards {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  padding: 0;
+}
+.partner-card {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+  width: 40%;
+  height: 200px;
+  border-radius: 15px;
+  position: relative;
+  margin-top: -100px;
+  z-index: 10;
+}
+.partner-slider-container {
+  width: 80%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1000px) {
+  .partner-cards {
+    flex-direction: column;
+    min-height: 400px;
+  }
+  .partner-card {
     width: 100%;
-    height: 100%;
-    margin-top: 100px;
-}
-.partners-text-container{
-    background-color: #294FCD;
-    height: 50%;
-    color: white;
-}
-.partners-text{
-    width: 80%;
-    margin: 0 auto;
-}
-.partner-cards-container{
-    background-color: white;
-    height: 50%;
-    justify-content: space-between;
-    padding-bottom: 50px;
-}
-.partner-cards{
-    position:relative;
-    width: 80%;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 10;
-    padding:0;
-}
-.partner-card{
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
-    width: 40%;
-    height: 200px;
-    border-radius: 15px;
-    position: relative;
-    margin-top: -100px;
-    z-index: 10;
+  }
 
 }
-.partner-slider-container{
-    width: 80%;
-    margin: 0 auto;
+.partners-text h2{
+  margin-top: 0;
+  padding-top: 40px;
 }

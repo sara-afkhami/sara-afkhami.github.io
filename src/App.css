@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+.back-footer {
+  background: rgb(212, 213, 218);
+  background: linear-gradient(
+    0deg,
+    rgba(212, 213, 218, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+@media screen and (max-width: 700px) {
+  h1{
+    font-size: 32px !important;
+  }
+  h2{
+    font-size: 28px !important;
+  }
+  h3{
+    font-size: 16px !important;
+  }
+  p{
+    font-size: 16px !important;
+  }
+}
+a{
+  text-decoration: none;
+}
+a:visited{
+  color: #2856d3;
+}

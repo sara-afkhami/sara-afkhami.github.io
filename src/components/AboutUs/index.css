@@ -30,22 +30,35 @@
 }
 
 */
-.about-us-info{
+.about-us-info {
   justify-content: center;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+  margin-top: -350px;
+  width: 80%;
 }
-.about-us-inner-info{
+.about-us-inner-info {
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-.send-resume-button{
+.send-resume-button {
   width: 190px;
   height: 40px;
   background-color: white;
   border: 2px solid black;
   border-radius: 50px;
-
-} 
+}
+@media screen and (max-width: 1400px) {
+  .about-us-info {
+    position: static;
+    margin-top: 0px;
+    padding-bottom: 50px;
+    
+  }
+  .about-us-container{
+    margin-top: 80px;
+  }
+}

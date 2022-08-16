@@ -1,7 +1,6 @@
 import React from 'react';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
-import { ToastContainer, toast } from "react-toastify";
 import axios from "axios";
 
 const DisplayingErrorMessagesSchema = Yup.object().shape({
@@ -13,9 +12,6 @@ const DisplayingErrorMessagesSchema = Yup.object().shape({
 });
 
 const WorkForm = () => {
-  function notify() {
-    toast.dark("Hey, see how easy!");
-  }
 
   return (
     <>

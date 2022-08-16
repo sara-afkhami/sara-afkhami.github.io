@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import './index.css'
-import others from '../../assets/images/others.png'
+import others from '../../assets/images/resOther.png'
 import arrow from '../../assets/icons/arrow.svg'
 
 const Index = () => {
@@ -33,25 +32,26 @@ const Index = () => {
             <div className='other-title'>
                 <h2>دیگران درباره ی ما چه میگویند؟</h2>
             </div>
-            <div className='other-slider flex-row'>
+            <div className='other-slider flex-column'>
                 <img alt='' src={currentArray[currentIndex].image} />
                 <div className='other-slider-info flex-column'>
                     <div className='other-slider-top flex-row'>
-                        <div className='other-slider-person'>
-                            <b>{currentArray[currentIndex].name}</b>
-                            <p>{currentArray[currentIndex].position}</p>
-                        </div>
-                        <div className='other-slider-arrows flex-row'>
+
+                        <div className='other-slider-arrows flex-row' style={{width: '100%', justifyContent: 'space-between'}}>
                             <a onClick={() => handleRightArrow()}>
                                 <img className='right-arrow' alt='' src={arrow} />
                             </a>
+                            <div className='other-slider-person' style={{textAlign: 'center'}}>
+                                <b>{currentArray[currentIndex].name}</b>
+                                <p>{currentArray[currentIndex].position}</p>
+                            </div>
                             <a onClick={() => handleLeftArrow()}>
                                 <img className='left-arrow' alt='' src={arrow} />
                             </a>
 
                         </div>
                     </div>
-                    <div className='other-slider-bottom'>
+                    <div className='other-slider-bottom' style={{margin: '5%'}}>
                         <p>
                             {currentArray[currentIndex].description}
                         </p>

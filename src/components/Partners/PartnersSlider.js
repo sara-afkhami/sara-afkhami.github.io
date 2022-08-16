@@ -18,7 +18,7 @@ const chevronWidth = 40;
 const Wrapper = styled.div`
   padding: 0 ${chevronWidth}px;
   max-width: 100%;
-  margin: 150px auto;
+  margin: 0 auto 8% auto;
 `;
 
 // const SlideItem = ({key}) =>{
