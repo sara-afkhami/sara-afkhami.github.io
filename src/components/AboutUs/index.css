@@ -1,35 +1,4 @@
-/* .about-us-container {
-  height: 100%;
-}
-.about-us-inner-info {
-  width: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding-bottom: 5%;
-}
-.about-us-info {
-  position: absolute;
-  height: 100%;
-  top: 200vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-  justify-content: end;
-  text-align: center;
-  font-family: 'irancell light';
-  font-size: 18px;
 
-}
-.about-us-image{
-  position: relative;
-  height: 100%;
-  overflow: hidden;
-}
-
-*/
 .about-us-info {
   justify-content: center;
   align-items: center;

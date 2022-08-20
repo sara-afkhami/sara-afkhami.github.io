@@ -1,3 +1,8 @@
 .responsive-footer p{
     font-family: 'iransans light' !important;
 }
+.responsive-footer-social-item{
+    background-color: #294FCD;
+    width: 50px;
+    height: 50px;
+}

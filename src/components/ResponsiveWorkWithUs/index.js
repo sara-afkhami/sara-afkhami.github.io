@@ -20,7 +20,7 @@ const Index = () => {
     }
     return (
         <div style={{ backgroundColor: '#eff7ff', display: 'flex', justifyContent: 'center' }}>
-            <div style={{ width: "90%", display: 'flex', justifyContent: 'center', paddingTop: '20%', paddingBottom: '20%' }} id="work-with-us">
+            <div style={{ width: "90%", display: 'flex', justifyContent: 'center', paddingTop: '25%', paddingBottom: '25%' }} id="work-with-us">
                 <div className='something flex-column' style={{ width: "80%", backgroundColor: "white", display: 'flex', justifyContent: 'center', padding: '5%', borderRadius: "15px", color:'#294FCD' }}>
                     <div style={{ textAlign: 'center' }}>
                         <h2>همکاری با ما</h2>
