@@ -1,6 +1,9 @@
 .hero-section-container-bg{
   justify-content: end;
   width: 100%;
+  background: url('../../assets/images/herosection.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .hero-section-container {
   width: 80%;

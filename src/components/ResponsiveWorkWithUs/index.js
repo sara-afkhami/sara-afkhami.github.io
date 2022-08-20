@@ -26,11 +26,6 @@ const Index = () => {
                         <h2>همکاری با ما</h2>
                         <p>برای برقراری  ارتباط  و شروع همکاری با نیلوا میتوانید،  فرم روبرو را پرکنید تا ما در اسرع وقت با شما تماس بگیريم و یا از طریق شماره تماس <a style={{color:'#294FCD'}} href='tel:982154406044'>۵۴۴۰۶۰۴۴</a> با ما در ارتباط باشید.</p>
                     </div>
-                    {/* <div>
-                        <Addresses icon={phone} text='۵۴۴۰۶۰۴۴  ' link='tel:982154406044' />
-                        <Addresses icon={email} text=' admin@nilva.ir' link='mailto:admin@nilva.ir' />
-                        <Addresses icon={location} text='ناحیه نوآوری شریف' link='https://goo.gl/maps/mkqPPQpbtvWVRtwd9' />
-                    </div> */}
                     <div style={showForm ? { display: 'block', height: '600px' } : { display: 'none' }}>
                     <h3 style={{marginTop: '10%'}}>فرم همکاری</h3>
                         <WForm setShowForm={setShowForm}/>

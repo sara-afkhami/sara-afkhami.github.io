@@ -17,6 +17,7 @@
     "react-dom": "^18.2.0",
     "react-full-page": "^0.1.12",
     "react-items-carousel": "^2.8.0",
+    "react-lottie": "^1.2.3",
     "react-multi-carousel": "^2.8.2",
     "react-scripts": "5.0.1",
     "react-toastify": "^9.0.7",

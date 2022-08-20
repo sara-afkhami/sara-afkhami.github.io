@@ -1,8 +1,8 @@
 import React from 'react'
-// import Lottie from "react-lottie";
+import Lottie from "react-lottie";
 import './index.css'
 import back from '../../assets/images/herosection.svg'
-import gif from '../../assets/images/data.json'
+import gif from '../../assets/images/23165-isometric-laptop (2).json'
 
 const Index = () => {
     const defaultOptions = {
@@ -17,7 +17,7 @@ const Index = () => {
     return (
         <div className='hero-section-container-bg'>
             <div className='hero-section-container' id='hero-section'>
-                <img className='hero-section-background' src={back} />
+                {/* <img className='hero-section-background' src={back} /> */}
                 <div className='hero-section-content'>
                     <h1>نیلوا</h1>
                     <p style={{ fontFamily: "irancell light", fontSize: "24px" }}>کارگزار رسمی پارک علم و فناوری دانشگاه شریف</p>
