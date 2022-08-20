@@ -27,8 +27,11 @@ const Index = () => {
                             مشاوره تخصصی
                         </button>
                     </a>
-                    {/* <Lottie options={defaultOptions} height={400} width={600} margin={0} float={"right"} /> */}
+
                 </div>
+                    <div style={{width: "50%", display: 'flex', justifyContent: 'right', alignItems: 'right'}}>
+                    <Lottie options={defaultOptions} margin={0} float={"right"} />
+                    </div>
             </div>
         </div>
     )
