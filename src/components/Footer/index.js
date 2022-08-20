@@ -22,7 +22,7 @@ const Address = ({ icon, href, info }) => {
                 <div className='footer-address-icon-background'>
                     <img className='footer-address-icon' alt='' src={icon} />
                 </div>
-                <p>{info}</p>
+                <p style={{fontFamily: "iransans light"}}>{info}</p>
             </a>
         </div>
     )

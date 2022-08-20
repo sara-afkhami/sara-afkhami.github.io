@@ -35,7 +35,7 @@ const Index = () => {
                   className="nav-links"
                   onClick={handleClick}
                 >
-                  درباره ی ما
+                  درباره ما
                 </a>
               </li>
               <li className="nav-item">

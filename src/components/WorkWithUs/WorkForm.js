@@ -45,7 +45,7 @@ const WorkForm = () => {
               <Field placeholder='شماره تماس' className='formik-field twin-field' name="phonenumber" style={touched.phonenumber && errors.phonenumber ? { border: "2px solid red" } : {}} />
             </div>
             <Field placeholder='آدرس ایمیل' className='formik-field' name="email" style={touched.email && errors.email ? { border: "2px solid red" } : {}} />
-            <Field placeholder='توضیحات' className='formik-field' name="description" style={touched.description && errors.description ? { border: "2px solid red", height: "calc(100% - 250px)" } : { height: "calc(100% - 250px)" }} />
+            <Field as="textarea" placeholder='توضیحات' className='formik-field' name="description" style={touched.description && errors.description ? { border: "2px solid red", height: "calc(100% - 250px)" } : { height: "calc(100% - 250px)" }} />
 
             {/* {touched.email && errors.email && <span style={{color: "red"}}>{errors.email}</span>} */}
             <button className='formik-button' name='username' type="submit">ثبت اطلاعات</button>

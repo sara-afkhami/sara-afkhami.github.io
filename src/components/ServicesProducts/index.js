@@ -20,7 +20,7 @@ const index = () => {
             <div className='services-products-cards flex-row'>
                 <div className='services-products-group-cards flex-row'>
                 <Card photo={setting} text='طراحی و توسعه نرم افزار' logo={code} name="طراحی و توسعه" info=" توسعه اپلیکیشن و وبسایت"  backColor="#434DC2" link='#' />
-                <Card photo={organ} text='مدیریت فرآیند های سازمانی' logo={erva} name="ایروا" info="نرم افزار مدیریت کسب و کار"  backColor="#A24689" />
+                <Card photo={organ} text='مدیریت فرآیند های سازمانی' logo={erva} name="ایروا" info="نرم افزار مدیریت کسب و کار"  backColor="#A24689" link="http://erp.nilva.ir/"/>
                 </div>
                 <div className='services-products-group-cards flex-row'>
                 <Card photo={chat} text='پیامرسان سازمانی' logo={hivaa} name="هیوا" info="پیام رسان امن سازمانی"  backColor="#2F489E" link='https://hivaa.im/' />

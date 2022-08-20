@@ -30,7 +30,7 @@ const ResponsivePartnerSlider = () => {
     const logos = [mohaymen, noghteh, pardis, techpark, yaftar]
     const links = ["https://www.mohaymen.ir/fa", 'https://noghteh-academy.com/', 'https://pardisgene.com/', 'https://techpark.sharif.ir/', '#']
     return (
-        <div className="" style={{ textAlign: "center", paddingTop:"100px" }}>
+        <div className="" style={{ textAlign: "center", paddingTop:"100px", direction:"ltr" }}>
             <div style={{ position: "relative" }}>
                 <Carousel responsive={responsive} arrows={false} infinite={true} autoPlay={true}>
                     <div>

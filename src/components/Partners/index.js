@@ -28,7 +28,7 @@ const Index = ({ width }) => {
         <div className='partners-container'>
             <div className='partners-text-container'>
                 <div className='partners-text' style={{minHeight: "450px"}}>
-                    <h2 className='' style={{ paddingTop: '10%' }}>چه کسانی به ما اعتماد کرده اند؟</h2>
+                    <h2 className=''>چه کسانی به ما اعتماد کرده اند؟</h2>
                     <p>نیلوا پاسخگوی نیازهای خاص مشتریان است، ما از ایده پردازی تا اجرا در کنار شماییم. ما به شما کمک می کنیم مزیت رقابتی کسب کنید، به طور چشمگیری نام تجاری خود را در دنیای دیجیتال بهبود بخشیده و مشتریان جدید جذب کنید.</p>
                 </div>
             </div>

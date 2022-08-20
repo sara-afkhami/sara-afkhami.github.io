@@ -1,15 +1,19 @@
 @font-face {
   font-family: "irancell bold";
-  src: url("./assets/fonts/IRANSans(FaNum)_Bold.ttf");
+  src: url("./assets/fonts/MTNIrancell-Bold.ttf");
 }
 
 @font-face {
   font-family: "irancell light";
-  src: url("./assets/fonts/IRANSans(FaNum)_Light.ttf");
+  src: url("./assets/fonts/MTNIrancell-Light.ttf");
 }
 @font-face {
   font-family: "irancell extra light";
-  src: url("./assets/fonts/IRANSans(FaNum)_UltraLight.ttf");
+  src: url("./assets/fonts/MTNIrancell-ExtraLight.ttf");
+}
+@font-face {
+  font-family: 'iransans light';
+  src: url('./assets/fonts/IRANSans(FaNum)_Light.ttf')
 }
 button{
   font-family: "irancell bold";  
@@ -45,4 +49,9 @@ h2{
 p{
   font-family: "irancell light";
   font-size: 18px;
+}
+@media screen and (max-width: 700px) {
+  h1{
+    letter-spacing: -1px;
+  }
 }

@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import './index.css'
-import phone from '../../assets/icons/phone.svg'
-import location from '../../assets/icons/location.svg'
-import email from '../../assets/icons/email.svg'
+import phone from '../../assets/icons/call.svg'
+import location from '../../assets/icons/address.svg'
+import email from '../../assets/icons/mail.svg'
 import WorkForm from '../WorkWithUs/WorkForm'
 import WForm from './Form'
 

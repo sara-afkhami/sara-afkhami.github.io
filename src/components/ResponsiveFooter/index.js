@@ -16,7 +16,7 @@ const Index = () => {
             <div >
                 <a className='footer-address-item flex-row' style={{ alignItems: 'baseline' }} target="_blank" href={href}>
                     <img className='' alt='' src={icon} style={{ marginLeft: '10px' }} />
-                    <p>{info}</p>
+                    <p style={{fontFamily: "iransans light"}}>{info}</p>
                 </a>
             </div>
         )
@@ -31,7 +31,7 @@ const Index = () => {
         )
     }
     return (
-        <div style={{ width: '80%', margin: '50px auto 0px auto' }}>
+        <div className='responsive-footer' style={{ width: '80%', margin: '50px auto 0px auto' }}>
             <div className='flex-column'>
                 <Address icon={address} href="https://goo.gl/maps/mkqPPQpbtvWVRtwd9" info="خیابان آزادی، کوچه صادقی، پلاک 29، 
 ساختمان پارک علم و فناوری دانشگاه شریف، طبقه 3، واحد 6" />

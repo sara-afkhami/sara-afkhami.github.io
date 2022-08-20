@@ -28,7 +28,7 @@ const Index = (props) => {
 
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
-  const navLinks = ["", "محصولات و خدمات", "درباره ی ما", "تماس با ما"]
+  const navLinks = ["", "محصولات و خدمات", "درباره ما", "تماس با ما"]
   const { scrollToSlide } = props;
 
   const renderSlidesNumbers = () => {

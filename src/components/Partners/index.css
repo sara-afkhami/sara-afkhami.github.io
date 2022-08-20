@@ -45,6 +45,7 @@
   width: 80%;
   margin: 0 auto;
 }
+
 @media screen and (max-width: 1000px) {
   .partner-cards {
     flex-direction: column;
@@ -53,9 +54,20 @@
   .partner-card {
     width: 100%;
   }
+  .partners-text{
+    text-align: center;
+    line-height: 28px;
+  }
+  .partners-text p{
+    padding-top: 20px;
+  }
+  .partners-text {
+    padding-top: 20%;  
+  }
 
 }
-.partners-text h2{
+.partners-text {
   margin-top: 0;
-  padding-top: 40px;
+  padding-top: 10%;
+  /* margin-top:  */
 }

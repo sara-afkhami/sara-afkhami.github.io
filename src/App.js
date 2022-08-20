@@ -83,8 +83,8 @@ const FullPageScroll = () => {
           <ResponsiveOthers />
           <ResponsiveFooter />
         </div>
-        <div style={{ backgroundColor: 'white', height: '30px', alignItems: 'center', textAlign: 'center', justifyContent: 'center', width: '100%', fontSize: '4px' }}>
-          <p>طراحی و تولید با &#10084;&#65039; در نیلوا</p>
+        <div style={{ backgroundColor: 'white', height: '30px', alignItems: 'center', textAlign: 'center', justifyContent: 'center', width: '100%'}}>
+          <p className="copy-right">طراحی و تولید با &#10084;&#65039; در نیلوا</p>
         </div>
       </div>
     )

@@ -21,11 +21,12 @@ const Index = () => {
                 <div className='hero-section-content'>
                     <h1>نیلوا</h1>
                     <p style={{ fontFamily: "irancell light", fontSize: "24px" }}>کارگزار رسمی پارک علم و فناوری دانشگاه شریف</p>
-                    <h1>همراه کسب و کار ها تا تحقق ایده</h1>
-                    <button className='hero-section-button'>
-                    <a href="#work-with-us">
-                    مشاوره تخصصی
-                    </a></button>
+                    <h1>همراه کسب و کارها تا تحقق ایده</h1>
+                    <a href="#work-with-us" className='hero-section-button-link'>
+                        <button className='hero-section-button'>
+                            مشاوره تخصصی
+                        </button>
+                    </a>
                     {/* <Lottie options={defaultOptions} height={400} width={600} margin={0} float={"right"} /> */}
                 </div>
             </div>

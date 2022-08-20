@@ -2,9 +2,9 @@ import React from 'react'
 import Form from './WorkForm'
 
 import './index.css'
-import phone from '../../assets/icons/phone.svg'
-import location from '../../assets/icons/location.svg'
-import email from '../../assets/icons/email.svg'
+import phone from '../../assets/icons/call.svg'
+import location from '../../assets/icons/address.svg'
+import email from '../../assets/icons/mail.svg'
 const Addresses = ({ icon, text, link }) => {
     return (
         <div className='flex-row'>
