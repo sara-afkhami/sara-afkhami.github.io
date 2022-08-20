@@ -21,16 +21,16 @@ const Index = () => {
     return (
         <div style={{ backgroundColor: '#eff7ff', display: 'flex', justifyContent: 'center' }}>
             <div style={{ width: "90%", display: 'flex', justifyContent: 'center', paddingTop: '20%', paddingBottom: '20%' }} id="work-with-us">
-                <div className='something flex-column' style={{ width: "80%", backgroundColor: "white", display: 'flex', justifyContent: 'center', padding: '5%', borderRadius: "15px" }}>
+                <div className='something flex-column' style={{ width: "80%", backgroundColor: "white", display: 'flex', justifyContent: 'center', padding: '5%', borderRadius: "15px", color:'#294FCD' }}>
                     <div style={{ textAlign: 'center' }}>
                         <h2>همکاری با ما</h2>
-                        <p>برای برقراری  ارتباط  و شروع همکاری با نیلوا میتوانید،  فرم روبرو را پرکنید تا ما در اسرع وقت با شما تماس بگیريم و یا از طریق شماره تماس زیر با ما در ارتباط باشید.</p>
+                        <p>برای برقراری  ارتباط  و شروع همکاری با نیلوا میتوانید،  فرم روبرو را پرکنید تا ما در اسرع وقت با شما تماس بگیريم و یا از طریق شماره تماس <a style={{color:'#294FCD'}} href='tel:982154406044'>۵۴۴۰۶۰۴۴</a> با ما در ارتباط باشید.</p>
                     </div>
-                    <div>
+                    {/* <div>
                         <Addresses icon={phone} text='۵۴۴۰۶۰۴۴  ' link='tel:982154406044' />
                         <Addresses icon={email} text=' admin@nilva.ir' link='mailto:admin@nilva.ir' />
                         <Addresses icon={location} text='ناحیه نوآوری شریف' link='https://goo.gl/maps/mkqPPQpbtvWVRtwd9' />
-                    </div>
+                    </div> */}
                     <div style={showForm ? { display: 'block', height: '600px' } : { display: 'none' }}>
                     <h3 style={{marginTop: '10%'}}>فرم همکاری</h3>
                         <WForm setShowForm={setShowForm}/>

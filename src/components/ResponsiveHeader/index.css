@@ -11,7 +11,7 @@
     font-size: 1.4rem;
     /* position: sticky; */
     top: 0;
-    z-index: 20;
+    z-index: 100;
     font-family: "irancell light";
   }
   
@@ -21,7 +21,7 @@
     align-items: center;
     width: 80%;
     height: 80px;
-    z-index: 20;
+    z-index: 100;
     /* max-width: 1700px; */
   }
   .nav--items {
