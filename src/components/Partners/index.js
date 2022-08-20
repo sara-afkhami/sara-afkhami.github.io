@@ -34,7 +34,7 @@ const Index = ({ width }) => {
             </div>
             <div className='partner-cards-container flex-column'>
                 <div className='partner-cards flex-row'>
-                    <WorkWith text='طراحی و بهینه سازی پروژه ذره بین توسط کارشناسان فنی شرکت نیلوا' title='مرور ذره بین' photo={hamrah} />
+                    <WorkWith text='طراحی و بهینه سازی پروژه ذره بین توسط کارشناسان فنی شرکت نیلوا' title='مرورگر ذره بین' photo={hamrah} />
                     <WorkWith text='ارائه پیامرسان امن سازمانی هیوا به دانشگاه آزاد اسلامی متناسب با نیاز این سازمان' title='پیام رسان سازمانی' photo={azad} />
                 </div>
                 <div className='partner-slider-container'>{(width > 1400) ? <PartnersSlider /> : <ResponsivePartnerSlider />}</div>
