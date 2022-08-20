@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "./static/css/main.b0db03d6.css",
-    "main.js": "./static/js/main.f4d8954e.js",
+    "main.css": "./static/css/main.6222eeaf.css",
+    "main.js": "./static/js/main.c72c9a1d.js",
     "static/media/about-us.svg": "./static/media/about-us.d47fa332bd4cc40b4081aba9a84244b3.svg",
     "static/media/azad.svg": "./static/media/azad.4b21c7db32d01aeb5db2e2ab53c1bedf.svg",
     "static/media/hamrah.svg": "./static/media/hamrah.81b378ad003c505b6f4c6ae55f629e07.svg",
     "static/media/others.png": "./static/media/others.c572cf73278f6ec03fb9.png",
     "static/media/noghteh.svg": "./static/media/noghteh.bac59e4b884bd2d5fe2e4901904b4e54.svg",
-    "static/media/IRANSans(FaNum)_UltraLight.ttf": "./static/media/IRANSans(FaNum)_UltraLight.5f707266615b4f850ddc.ttf",
-    "static/media/IRANSans(FaNum)_Bold.ttf": "./static/media/IRANSans(FaNum)_Bold.81607d9af4ffe341e3fd.ttf",
     "static/media/IRANSans(FaNum)_Light.ttf": "./static/media/IRANSans(FaNum)_Light.8537ed7e79899f57181f.ttf",
+    "static/media/MTNIrancell-ExtraLight.ttf": "./static/media/MTNIrancell-ExtraLight.b9a9c4002b3a939f36d9.ttf",
+    "static/media/MTNIrancell-Light.ttf": "./static/media/MTNIrancell-Light.0147904a03475e9800dc.ttf",
     "static/media/resOther.png": "./static/media/resOther.7b534802f2c1704901cb.png",
+    "static/media/MTNIrancell-Bold.ttf": "./static/media/MTNIrancell-Bold.e90fca074d72736dc9b2.ttf",
     "static/media/hivaa.svg": "./static/media/hivaa.f11beadbd3ad217d2ffb6c3ad6079c81.svg",
     "static/media/erva.svg": "./static/media/erva.255fe0be0db0b1ad87984f286db3e5dd.svg",
     "static/media/code.svg": "./static/media/code.0070b3504c11cdce33ed4c2b01d19c57.svg",
@@ -40,18 +41,15 @@
     "static/media/Gmail.svg": "./static/media/Gmail.c2ef1c5dce788d62118b8c97ee823b88.svg",
     "static/media/mail.svg": "./static/media/mail.e640ad20ad0e587fd20bf07a9dc8b444.svg",
     "static/media/Location.svg": "./static/media/Location.43a62af078d9e5efa7ed93351e65afb8.svg",
-    "static/media/phone.svg": "./static/media/phone.82caaa85f7b5de3254f9d5a3189bd798.svg",
     "index.html": "./index.html",
-    "static/media/location.svg": "./static/media/location.614f72b6187e1f59ef9824bac97104b8.svg",
-    "static/media/email.svg": "./static/media/email.df1b19d7fc23c0a1e3e30b4bec3bbfe9.svg",
     "static/media/herosection.svg": "./static/media/herosection.59b5d3874164fbcb38b093e486df6882.svg",
     "static/media/burger.svg": "./static/media/burger.5279d3f3ca08799a48ea63b0c421d92f.svg",
     "static/media/arrow.svg": "./static/media/arrow.25e019e4508a8d4dc7ca66101fcb30f6.svg",
-    "main.b0db03d6.css.map": "./static/css/main.b0db03d6.css.map",
-    "main.f4d8954e.js.map": "./static/js/main.f4d8954e.js.map"
+    "main.6222eeaf.css.map": "./static/css/main.6222eeaf.css.map",
+    "main.c72c9a1d.js.map": "./static/js/main.c72c9a1d.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0db03d6.css",
-    "static/js/main.f4d8954e.js"
+    "static/css/main.6222eeaf.css",
+    "static/js/main.c72c9a1d.js"
   ]
 }
