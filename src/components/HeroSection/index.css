@@ -1,7 +1,7 @@
-.hero-section-container-bg{
+.hero-section-container-bg {
   justify-content: end;
   width: 100%;
-  background: url('../../assets/images/herosection.svg');
+  background: url("../../assets/images/herosection.svg");
   background-repeat: no-repeat;
   background-size: 60% auto;
   background-position: right bottom;
@@ -50,27 +50,27 @@
   font-size: 20px;
   /* align-self: end; */
 }
-.hero-section-button-link{
-   align-self: end;
-   width: 50%;
+.hero-section-button-link {
+  align-self: end;
+  width: 50%;
 }
 @media screen and (max-width: 700px) {
   .hero-section-container {
     height: auto;
-    justify-content:center;
+    justify-content: center;
   }
-  .hero-section-container-bg{
+  .hero-section-container-bg {
     background-color: #eff8ff;
     padding-bottom: 30px;
   }
-  .hero-section-background{
+  .hero-section-background {
     display: none;
   }
-  .hero-section-content{
+  .hero-section-content {
     align-items: center;
     text-align: center;
   }
-  .hero-section-button-link .hero-section-button{
+  .hero-section-button-link .hero-section-button {
     align-self: center;
     background-color: #eff8ff;
     color: #2856d3;
@@ -78,24 +78,29 @@
     border: 3px solid #2856d3;
     width: 100%;
   }
-  .hero-section-button-link{
+  .hero-section-button-link {
     width: 100%;
   }
-  h1{
+  h1 {
     /* font-size: 24px; */
     /* letter-spacing: -4px; */
   }
 }
+.hero-section-gif {
+  width: 50%;
+  display: flex;
+  justifycontent: right;
+  alignitems: right;
+}
 @media screen and (max-width: 700px) {
-
-  .hero-section-button a{
-
+  .hero-section-button a {
     color: white;
-
   }
   .hero-section-container {
-   
     flex-direction: column;
   }
-
+  .hero-section-gif {
+    margin-top: 100px;
+    width: 100%;
+  }
 }

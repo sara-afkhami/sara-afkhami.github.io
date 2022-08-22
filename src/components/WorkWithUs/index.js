@@ -10,7 +10,7 @@ const Addresses = ({ icon, text, link }) => {
         <div className='flex-row'>
             <a href={link} className='flex-row' style={{textDecoration: 'none'}}>
             <img src={icon} />
-            <p style={{ margin: '0', fontSize: '16px', fontFamily: 'irancell light' }}>{text}</p>
+            <p style={{ margin: '0', fontSize: '16px', fontFamily: 'irancell light', color: '#294FCD' }}>{text}</p>
             </a>
         </div>
     )

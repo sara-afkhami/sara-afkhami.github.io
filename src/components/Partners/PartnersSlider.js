@@ -12,7 +12,7 @@ const logos = [mohaymen, noghteh, pardis, techpark, yaftar]
 const links = ["https://www.mohaymen.ir/fa", 'https://noghteh-academy.com/', 'https://pardisgene.com/', 'https://techpark.sharif.ir/', '#']
 const noOfItems = 5;
 const noOfCards = 4;
-const autoPlayDelay = 2000;
+const autoPlayDelay = 3000;
 const chevronWidth = 40;
 
 const Wrapper = styled.div`
@@ -65,7 +65,7 @@ export default class AutoPlayCarousel extends React.Component {
 
   render() {
     return (
-      <Wrapper style={{direction: "ltr"}}>
+      <Wrapper style={{direction: "ltr", paddingTop: '50px'}}>
         <ItemsCarousel
           gutter={12}
           numberOfCards={noOfCards}

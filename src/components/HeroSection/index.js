@@ -29,7 +29,7 @@ const Index = () => {
                     </a>
 
                 </div>
-                    <div style={{width: "50%", display: 'flex', justifyContent: 'right', alignItems: 'right'}}>
+                    <div className='hero-section-gif'>
                     <Lottie options={defaultOptions} margin={0} float={"right"} />
                     </div>
             </div>

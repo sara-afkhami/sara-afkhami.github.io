@@ -1,6 +1,6 @@
 import './index.css'
 import React from 'react'
-import aboutUs from '../../assets/images/about-us.svg'
+import aboutUs from '../../assets/images/about.svg'
 
 const index = () => {
   return (

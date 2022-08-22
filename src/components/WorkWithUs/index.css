@@ -89,3 +89,19 @@
    padding-right: 2%;
    font-family: "irancell extra light"
   }
+  /* textarea::placeholder {
+    color: #76777A;
+    padding-right: 2%;
+    font-family: "irancell extra light"
+  }
+  ::-ms-textarea-placeholder {
+    color: #76777A;
+    padding-right: 2%;
+    font-family: "irancell extra light"
+   }
+   :-ms-textarea-placeholder {
+    color: #76777A;
+    padding-right: 2%;
+    font-family: "irancell extra light"
+   }
+    */

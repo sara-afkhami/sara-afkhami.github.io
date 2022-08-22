@@ -68,6 +68,13 @@
 }
 .partners-text {
   margin-top: 0;
-  padding-top: 10%;
+  padding-top: 70px;
   /* margin-top:  */
+}
+@media screen and (min-width: 1500px){
+  .partners-text {
+
+    padding-top: 120px;
+    
+}
 }

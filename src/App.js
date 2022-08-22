@@ -70,7 +70,26 @@ const FullPageScroll = () => {
       </>
     )
   }
-  if (width <= 1400) {
+  if (width <= 1400 && 800 < width ) {
+    return (
+      <div>
+        <ResponsiveHeader />
+        <HeroSection />
+        <ServicesProducts />
+        <AboutUs />
+        <ResponsiveWorkWithUs style={{ ...SectionStyle }} />
+        <Partners width={width} />
+        <div className="back-footer">
+          <Others />
+          <ResponsiveFooter />
+        </div>
+        <div style={{ backgroundColor: '#294FCD', height: '30px', alignItems: 'center', textAlign: 'center', justifyContent: 'center', width: '100%', color: 'white', paddingTop: '8px', paddingButtom: '8px' }}>
+          <p className="copy-right">طراحی و توسعه با &#10084;&#65039; در نیلوا</p>
+        </div>
+      </div>
+    )
+  }
+  if ( width <= 800) {
     return (
       <div>
         <ResponsiveHeader />
@@ -83,7 +102,7 @@ const FullPageScroll = () => {
           <ResponsiveOthers />
           <ResponsiveFooter />
         </div>
-        <div style={{ backgroundColor: '#294FCD', height: '30px', alignItems: 'center', textAlign: 'center', justifyContent: 'center', width: '100%', color: 'white', paddingTop:'8px', paddingButtom: '8px'}}>
+        <div style={{ backgroundColor: '#294FCD', height: '30px', alignItems: 'center', textAlign: 'center', justifyContent: 'center', width: '100%', color: 'white', paddingTop: '8px', paddingButtom: '8px' }}>
           <p className="copy-right">طراحی و توسعه با &#10084;&#65039; در نیلوا</p>
         </div>
       </div>
