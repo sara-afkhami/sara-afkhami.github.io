@@ -19,6 +19,7 @@
   background-color: white;
   border: 2px solid black;
   border-radius: 50px;
+  color: black;
 }
 @media screen and (max-width: 1400px) {
   .about-us-info {
@@ -37,11 +38,12 @@
 @media screen and (max-width: 700px) {
   a .send-resume-button {
     width: 100%;
-  
+  color: black;
   }
   .send-resume-button-link{
     width: 100%;
     margin-top: 30px;
+    color: black;
   }
   .about-us-info {
     -webkit-text-stroke: 0.2px black;
