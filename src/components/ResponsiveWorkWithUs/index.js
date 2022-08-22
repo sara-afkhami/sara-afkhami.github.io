@@ -42,7 +42,7 @@ const Index = () => {
 
   return (
     <AnimateSharedLayout>
-      <motion.ul className='motion-ul' layout initial={{ borderRadius: 1 }}>
+      <motion.ul className='motion-ul' id='work-with-us' layout initial={{ borderRadius: 1 }}>
         <Item />
       </motion.ul>
     </AnimateSharedLayout>
