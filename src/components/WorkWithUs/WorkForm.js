@@ -1,7 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 import axios from "axios";
+import ClipLoader from "react-spinners/ClipLoader";
+
+const override = {
+  display: "block",
+  margin: "0 10px",
+  borderColor: "white",
+};
+
 
 const DisplayingErrorMessagesSchema = Yup.object().shape({
   username: Yup.string()
@@ -12,7 +20,7 @@ const DisplayingErrorMessagesSchema = Yup.object().shape({
 });
 
 const WorkForm = () => {
-
+  const [loading, setLoading] = useState(false);
   return (
     <>
       <Formik
@@ -23,8 +31,9 @@ const WorkForm = () => {
           description: ''
         }}
         validationSchema={DisplayingErrorMessagesSchema}
-        onSubmit={values => {
+        onSubmit={(values, {resetForm}) => {
           // same shape as initial values
+          setLoading(true)
           const object = values;
           axios
             .post(
@@ -33,6 +42,8 @@ const WorkForm = () => {
             )
             .then((response) => {
               console.log("--->>> " + response.data);
+              resetForm();
+              setLoading(false)
             })
             .catch((error) => { console.log("error" + error); });
           console.log(values);
@@ -48,7 +59,12 @@ const WorkForm = () => {
             <Field as="textarea" placeholder='توضیحات' className='formik-field' name="description" style={touched.description && errors.description ? { border: "2px solid red", height: "calc(100% - 250px)" } : { height: "calc(100% - 250px)" }} />
 
             {/* {touched.email && errors.email && <span style={{color: "red"}}>{errors.email}</span>} */}
-            <button className='formik-button' name='username' type="submit">ثبت اطلاعات</button>
+            <button className='formik-button' name='username' type="submit" disabled={loading}>
+              {loading && (
+                <ClipLoader loading={loading} cssOverride={override} size={20} />
+              )}
+              {!loading && <span>ارسال</span>} {loading && <span>در حال ارسال</span>}
+            </button>
           </Form>
         )}
 

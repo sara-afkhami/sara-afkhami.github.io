@@ -45,3 +45,13 @@ li.motion-li{
   /* padding: 30px  */
 }
 
+.formik-button:disabled {
+  opacity: 0.5;
+}
+.formik-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

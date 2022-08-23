@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FullPage, Slide } from 'react-full-page';
-import { ToastContainer, toast } from "react-toastify";
+// import { ToastContainer, toast } from "react-toastify";
 import './App.css';
 import Header from "./components/Header"
 import HeroSection from "./components/HeroSection"

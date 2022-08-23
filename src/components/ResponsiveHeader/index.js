@@ -53,7 +53,7 @@ const Index = () => {
               
             </ul>
             <div className="nav-icon" onClick={handleClick}>
-              <i className={click ? "fas fa-times" : "fas fa-bars"}> {click ? <i className="fas fa-bars"><img alt='' src={burger}/></i> : <i className="fas fa-times" ><img alt='' src={burger}/></i>}</i>
+              <i > {click ? <i><img alt='' src={burger}/></i> : <i><img alt='' src={burger}/></i>}</i>
             </div>
           </div>
         </nav>
