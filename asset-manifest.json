@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.8c8bf16f.css",
-    "main.js": "./static/js/main.3fc7e123.js",
+    "main.css": "./static/css/main.6345bafe.css",
+    "main.js": "./static/js/main.cdd27ee7.js",
     "static/media/about.svg": "./static/media/about.e9a2862eb356ada2cbf637edb2a8f92e.svg",
     "static/media/azad.svg": "./static/media/azad.4b21c7db32d01aeb5db2e2ab53c1bedf.svg",
     "static/media/hamrah.svg": "./static/media/hamrah.81b378ad003c505b6f4c6ae55f629e07.svg",
@@ -12,24 +12,24 @@
     "static/media/MTNIrancell-Light.ttf": "./static/media/MTNIrancell-Light.0147904a03475e9800dc.ttf",
     "static/media/resOther.png": "./static/media/resOther.7b534802f2c1704901cb.png",
     "static/media/MTNIrancell-Bold.ttf": "./static/media/MTNIrancell-Bold.e90fca074d72736dc9b2.ttf",
+    "static/media/rasane.png": "./static/media/rasane.0004f046383904662960.png",
     "static/media/hivaa.svg": "./static/media/hivaa.f11beadbd3ad217d2ffb6c3ad6079c81.svg",
     "static/media/erva.svg": "./static/media/erva.255fe0be0db0b1ad87984f286db3e5dd.svg",
     "static/media/code.svg": "./static/media/code.0070b3504c11cdce33ed4c2b01d19c57.svg",
     "static/media/yaftar.svg": "./static/media/yaftar.c7d2aca9d08aff500261b5dd17531ca4.svg",
     "static/media/daraya.svg": "./static/media/daraya.0bb011f784265f08e1b6ad18f37ce50c.svg",
-    "static/media/rasane.svg": "./static/media/rasane.519cd9801e6030e644e3cfd802a744e5.svg",
+    "static/media/etemad.png": "./static/media/etemad.52ef76a875de9dbb99f1.png",
     "static/media/pardis.svg": "./static/media/pardis.67a954d42dc4e419f87e44e13ec2bf52.svg",
     "static/media/techpark.svg": "./static/media/techpark.c174e21a3e181853772c32ddcc8c80ce.svg",
     "static/media/Mohaymen.svg": "./static/media/Mohaymen.bf0af33cc1a12bd469b000521f5324bf.svg",
     "static/media/revicons.eot": "./static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "./static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "./static/media/revicons.e8746a624ed098489406.woff",
-    "static/media/etemad.svg": "./static/media/etemad.7efa33bb3334c6941576b903dc31bd0b.svg",
     "static/media/coin.svg": "./static/media/coin.ce7fdd8802e3ab7966e27df7afc054b7.svg",
     "static/media/settings.svg": "./static/media/settings.9f0baf04451a611859c5160b62af3da6.svg",
     "static/media/Viber.svg": "./static/media/Viber.e9175b8707951e7664e9790c10209683.svg",
     "static/media/chat.svg": "./static/media/chat.075f2d1b714f14d99d0093f33adf05d2.svg",
-    "static/media/logo.svg": "./static/media/logo.d202c5fa1c4a70c6030b333bcb0acff7.svg",
+    "static/media/logo.svg": "./static/media/logo.871074babf3d2994b3726b06203bc7e3.svg",
     "static/media/organ.svg": "./static/media/organ.f6bd928715a8b74c7b6669b164130505.svg",
     "static/media/github.svg": "./static/media/github.848dee9407231352b3540f64edc76a1b.svg",
     "static/media/call.svg": "./static/media/call.5219f9f86e146d40b022fc2b8b6654f4.svg",
@@ -45,11 +45,11 @@
     "static/media/herosection.svg": "./static/media/herosection.59b5d3874164fbcb38b093e486df6882.svg",
     "static/media/burger.svg": "./static/media/burger.5279d3f3ca08799a48ea63b0c421d92f.svg",
     "static/media/arrow.svg": "./static/media/arrow.25e019e4508a8d4dc7ca66101fcb30f6.svg",
-    "main.8c8bf16f.css.map": "./static/css/main.8c8bf16f.css.map",
-    "main.3fc7e123.js.map": "./static/js/main.3fc7e123.js.map"
+    "main.6345bafe.css.map": "./static/css/main.6345bafe.css.map",
+    "main.cdd27ee7.js.map": "./static/js/main.cdd27ee7.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c8bf16f.css",
-    "static/js/main.3fc7e123.js"
+    "static/css/main.6345bafe.css",
+    "static/js/main.cdd27ee7.js"
   ]
 }
