@@ -28,14 +28,14 @@
   padding: 0;
 }
 .partner-card {
-  padding: 20px;
+  padding: 10px 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: white;
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
   width: 40%;
-  height: 200px;
+  height: 180px;
   border-radius: 15px;
   position: relative;
   margin-top: -100px;

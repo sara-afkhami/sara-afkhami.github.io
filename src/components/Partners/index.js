@@ -8,7 +8,7 @@ import ResponsivePartnerSlider from './ResponsivePartnerSlider'
 const WorkWith = ({ title, text, photo }) => {
     return (
         <div className='partner-card flex row'>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#F3F5F8', borderRadius: '10px', minWidth: '20%', height: 'auto', padding: '30px' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#F3F5F8', borderRadius: '10px', minWidth: '20%', height: 'auto', padding: '۲0px' }}>
                 <img alt='' src={photo} />
             </div>
             <div style={{ paddingRight: '20px' }}>
