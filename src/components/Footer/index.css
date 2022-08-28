@@ -30,11 +30,19 @@
 .footer-address-row a {
   text-decoration: none;
 }
-.footer-social-row,
-.footer-licenses-row {
+.footer-social-row
+ {
   width: 100%;
   justify-content: center;
   align-items: center;
+}
+.footer-licenses-row{
+  width: 190px;
+  justify-content: center;
+  align-items: center;
+}
+.footer-license img{
+  width: 85px;
 }
 .footer-social-item {
   background-color: #294fcd;
@@ -65,6 +73,8 @@
 .footer-address-icon {
   margin: auto;
   padding: 15px;
+  width: 24px;
+  height: auto;
 }
 .footer-address-item {
   /* display: flex; */

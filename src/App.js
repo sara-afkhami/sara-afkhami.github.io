@@ -14,6 +14,7 @@ import ResponsiveHeader from './components/ResponsiveHeader'
 import ResponsiveWorkWithUs from "./components/ResponsiveWorkWithUs"
 import ResponsiveOthers from "./components/ResponsiveOthers"
 import ResponsiveFooter from "./components/ResponsiveFooter"
+import MyLottie from "./components/MyLottie"
 
 const FullPageScroll = () => {
 
@@ -98,6 +99,7 @@ const FullPageScroll = () => {
         <AboutUs />
         <ResponsiveWorkWithUs style={{ ...SectionStyle }} />
         <Partners width={width} />
+        {/* <MyLottie /> */}
         <div className="back-footer">
           <ResponsiveOthers />
           <ResponsiveFooter />

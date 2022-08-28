@@ -13,18 +13,9 @@
   height: calc(100vh - 100px);
   display: flex;
   align-items: center;
-  /* flex-direction: row-reverse; */
-  justify-content: end;
+  justify-content: space-between;
   flex-direction: row-reverse;
 }
-/* .hero-section-background {
-  z-index: -1;
-  width: 60%;
-  height: auto;
-  position: absolute;
-
-  right: 0px;
-} */
 .hero-section-content {
   position: relative;
   width: fit-content;

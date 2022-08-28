@@ -29,9 +29,9 @@ const Index = () => {
                     </a>
 
                 </div>
-                    <div className='hero-section-gif'>
+                <div className='hero-section-gif'>
                     <Lottie options={defaultOptions} margin={0} float={"right"} />
-                    </div>
+                </div>
             </div>
         </div>
     )

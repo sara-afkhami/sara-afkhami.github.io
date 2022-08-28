@@ -3,8 +3,8 @@ import instagram from '../../assets/icons/instagram.svg'
 import linkedin from '../../assets/icons/linkedin.svg'
 import telegram from '../../assets/icons/telegram.svg'
 import github from '../../assets/icons/github.svg'
-import rasane from '../../assets/images/rasane.svg'
-import etemad from '../../assets/images/etemad.svg'
+import rasane from '../../assets/images/rasane.png'
+import etemad from '../../assets/images/etemad.png'
 import call from '../../assets/icons/call.svg'
 import address from '../../assets/icons/address.svg'
 import mail from '../../assets/icons/mail.svg'
@@ -51,10 +51,10 @@ const Index = () => {
                     <Address icon={call} href="tel:982154406044" info="۵۴۴۰۶۰۴۴" />
                     <div style={{ backgroundColor: "#EBEEF3", height: '1px', width: '100%', display: 'flex', alignSelf: 'center', margin: "30px 0 15px 0" }}></div>
                     <div className='flex-row' style={{ justifyContent: 'space-between', width: '40%', margin: '0 auto 15px auto' }}>
-                        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: 'white', borderRadius: '15px', width: '40%' }}>
-                            <img src={rasane} />
+                        <div className='footer-license' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: 'white', borderRadius: '15px', width: '40%' }}>
+                            <img  src={rasane} />
                         </div>
-                        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: 'white', borderRadius: '15px', width: '40%' }}>
+                        <div className='footer-license' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: 'white', borderRadius: '15px', width: '40%' }}>
                             <img src={etemad} />
                         </div>
                     </div>
