@@ -49,7 +49,7 @@
 @media screen and (max-width: 1000px) {
   .partner-cards {
     flex-direction: column;
-    min-height: 400px;
+    min-height: 360px;
   }
   .partner-card {
     width: 100%;
