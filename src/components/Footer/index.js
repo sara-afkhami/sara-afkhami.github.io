@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.css'
 import email from '../../assets/icons/Gmail.svg'
-import location from '../../assets/icons/Location.svg'
+// import location from '../../assets/icons/Location.svg'
 import phone from '../../assets/icons/Viber.svg'
 import instagram from '../../assets/icons/instagram.svg'
 import linkedin from '../../assets/icons/linkedin.svg'
