@@ -1,7 +1,7 @@
 import "./index.css";
 import React, { useEffect, useState } from "react";
 import aboutUs from "../../assets/images/about.svg";
-import aboutUs1 from "../../assets/images/test.jpg";
+// import aboutUs1 from "../../assets/images/test.jpg";
 
 const Index = () => {
   const [device, setDevice] = useState('m');
