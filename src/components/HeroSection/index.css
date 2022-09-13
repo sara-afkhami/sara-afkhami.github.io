@@ -45,7 +45,7 @@
   align-self: end;
   width: 50%;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1100px) {
   .hero-section-container {
     height: auto;
     justify-content: center;
@@ -80,10 +80,10 @@
 .hero-section-gif {
   width: 50%;
   display: flex;
-  justifycontent: right;
-  alignitems: right;
+  justify-content: right;
+  align-items: right;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1100px) {
   .hero-section-button a {
     color: white;
   }

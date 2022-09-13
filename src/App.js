@@ -19,13 +19,15 @@ import MyLottie from "./components/MyLottie"
 const FullPageScroll = () => {
 
   const [width, setWidth] = useState(window.innerWidth);
+  const [device, setDevice] = useState('m');
   useEffect(() => {
+    console.log(navigator);
+    setDevice(navigator.platform);
     const handleResize = () => {
       setWidth(window.innerWidth);
     }
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
-
   }, [width])
 
 

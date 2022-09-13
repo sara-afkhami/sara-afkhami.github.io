@@ -1,30 +1,12 @@
 import "./index.css";
 import React, { useEffect, useState } from "react";
 import aboutUs from "../../assets/images/about.svg";
-// import aboutUs1 from "../../assets/images/test.jpg";
+
 
 const Index = () => {
-  const [device, setDevice] = useState('m');
-  useEffect(() => {
-    console.log(navigator);
-    setDevice(navigator.platform);
-  }, []);
+
   return (
     <div className="about-us-container" id="about-us">
-      {/* {device === "iPhone" ? (
-        <img
-          className="about-us-imagee"
-          src={aboutUs}
-          alt=""
-        />
-      ) : (
-        <img
-          className="about-us-image"
-          src={aboutUs}
-          alt=""
-          style={{ position: "relative" }}
-        />
-      )} */}
       <img
           className="about-us-image"
           src={aboutUs}
