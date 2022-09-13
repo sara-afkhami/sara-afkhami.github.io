@@ -21,7 +21,6 @@ const Index = () => {
               <li className="nav-item">
                 <a
                  href='#services'   
-                  activeClassName="active"
                   className="nav-links"
                   onClick={handleClick}
                 >
@@ -31,7 +30,6 @@ const Index = () => {
               <li className="nav-item">
                 <a
                   href='#about-us'
-                  activeClassName="active"
                   className="nav-links"
                   onClick={handleClick}
                 >
@@ -41,7 +39,6 @@ const Index = () => {
               <li className="nav-item">
                 <a
                   href='#work-with-us'
-                  activeClassName="active"
                   className="nav-links"
                   onClick={handleClick}
                 >

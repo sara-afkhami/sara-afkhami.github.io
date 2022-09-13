@@ -29,8 +29,10 @@ const Wrapper = styled.div`
 
 
 
-const carouselItems = range(noOfItems).map(index => (
-    <div style={{
+const carouselItems = range(noOfItems).map((item, index) => (
+    <div 
+    key={index}
+    style={{
         height: '100px',
         // background: '#EEE',
         display: 'flex',
@@ -38,8 +40,8 @@ const carouselItems = range(noOfItems).map(index => (
         justifyContent: 'center'}}>
        
         {/* {index} */}
-        <a target='_blank' style={{textDecoration: "none"}} href={links[index]}>
-        <img src={logos[index]} alt=""/>
+        <a target='_blank' style={{textDecoration: "none"}} href={links[item]}>
+        <img src={logos[item]} alt=""/>
         </a>
     </div>
 ));
@@ -71,8 +73,6 @@ export default class AutoPlayCarousel extends React.Component {
           numberOfCards={noOfCards}
           activeItemIndex={this.state.activeItemIndex}
           requestToChangeActive={this.onChange}
-        //   rightChevron={<button>{'>'}</button>}
-        //   leftChevron={<button>{'<'}</button>}
           chevronWidth={chevronWidth}
           outsideChevron
           children={carouselItems}
