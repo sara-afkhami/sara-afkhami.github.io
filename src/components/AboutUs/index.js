@@ -11,7 +11,7 @@ const Index = () => {
   }, []);
   return (
     <div className="about-us-container" id="about-us">
-      {device === "iPhone" ? (
+      {/* {device === "iPhone" ? (
         <img
           className="about-us-imagee"
           src={aboutUs}
@@ -24,8 +24,13 @@ const Index = () => {
           alt=""
           style={{ position: "relative" }}
         />
-      )}
-
+      )} */}
+      <img
+          className="about-us-image"
+          src={aboutUs}
+          alt=""
+          style={{ position: "relative" }}
+        />
       <div className="about-us-info" style={{ width: "80%" }}>
         <div
           className="about-us-inner-info flex-column"

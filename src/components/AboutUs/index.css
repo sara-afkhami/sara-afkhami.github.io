@@ -10,6 +10,7 @@
 }
 .about-us-image{
   width: 100%;
+  height: auto;
 }
 .about-us-inner-info {
   justify-content: center;
@@ -54,9 +55,5 @@
     -webkit-text-stroke: 0.2px black;
     line-height: 28px;
     
-  }
-  .about-us-imagee{
-    width: 100%;
-    height: auto;
   }
 }
