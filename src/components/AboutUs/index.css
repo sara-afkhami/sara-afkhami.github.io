@@ -8,6 +8,9 @@
   margin-top: -400px;
   width: 80%;
 }
+.about-us-image{
+  width: 100%;
+}
 .about-us-inner-info {
   justify-content: center;
   align-items: center;
@@ -51,5 +54,9 @@
     -webkit-text-stroke: 0.2px black;
     line-height: 28px;
     
+  }
+  .about-us-imagee{
+    width: 100%;
+    height: auto;
   }
 }
