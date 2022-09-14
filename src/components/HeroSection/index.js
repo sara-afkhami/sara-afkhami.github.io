@@ -3,6 +3,7 @@ import Lottie from "react-lottie";
 import './index.css'
 import back from '../../assets/images/herosection.svg'
 import gif from '../../assets/images/23165-isometric-laptop (2).json'
+const Animation = React.lazy(() => import('./Animation'))
 
 const Index = () => {
     const defaultOptions = {
@@ -30,7 +31,9 @@ const Index = () => {
 
                 </div>
                 <div className='hero-section-gif'>
-                    <Lottie options={defaultOptions} margin={0} float={"right"} />
+                    {/* <Lottie options={defaultOptions} margin={0} float={"right"} /> */}
+                    {/* <Animation /> */}
+                    {/* <div id="lottie" style={{ position: 'absolute'}}></div> */}
                 </div>
             </div>
         </div>
