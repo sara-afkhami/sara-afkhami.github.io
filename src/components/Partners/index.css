@@ -5,7 +5,7 @@
 }
 .partners-text-container {
   background-color: #294fcd;
-  height: 50%;
+  height: 60%;
   color: white;
 }
 .partners-text {
@@ -16,7 +16,7 @@
   background-color: white;
   height: 50%;
   justify-content: space-between;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
 }
 .partner-cards {
   position: relative;
